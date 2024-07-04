@@ -2,12 +2,15 @@
   "name": "crud-application-with-express",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":  "node --watch app.js"
+    "start": "node --watch app.js"
   },
   "keywords": [],
   "author": "Gabbi <gabbi.erazo1@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
